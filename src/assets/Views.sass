@@ -1,0 +1,123 @@
+@use 'United.sass'
+
+
+
+.guide
+    background-color: #518eb4
+    height: 40px
+    @include United.center()
+    a
+        color: white
+        padding: 0 30px
+
+        &:hover
+            color: #ffb700
+        
+
+
+
+.banner
+    @include United.center()
+    height: 500px
+    margin-bottom: 50px
+
+
+    @media (max-width: 650px)
+        width: auto
+        height: auto
+        
+    img
+        max-width: 1980px
+        height: 100%
+        width: 100%
+        object-fit: cover
+
+.titles
+    background-color: #fff
+    margin-top: 30px
+    margin-bottom: 10px
+    height: 80px
+    font-size: 30px
+    @include United.center()
+
+#foods,#views
+    background-color: #d3d3d3
+    padding-bottom: 30px
+
+
+.card-list
+    padding-top: 20px
+    display: grid
+    grid-template-columns: 30% 30% 30%
+    grid-column-gap: 10px
+    grid-row-gap: 10px
+    justify-content: space-around
+
+    @media (max-width: 650px)
+        padding-top: 5px
+        grid-row-gap: 5px
+        grid-template-columns: 100%
+        width: 100%
+        flex-direction: column
+
+
+    .card
+        flex-direction: column
+        @include United.center()
+        border: 1px solid #ababae
+        border-radius: 10px
+        overflow: hidden
+
+        @media (max-width: 650px)
+            width: 100%
+            margin-top: 10px
+
+        .card-img
+            width: 100%
+            height: 250px
+            
+
+            @media (max-width: 650px)
+                width: 100%
+                height: 300px
+
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+
+        .introduce
+            background-color: #fff
+            width: 100%
+            height: 150px
+            padding: 20px 0 20px 10px
+
+            .name
+                font-size: 30px
+                margin-bottom: 5px
+
+            
+
+.locad-title
+    position: absolute
+    height: 0
+    width: 150px
+    height: 80px
+    top: 200px
+    left: 50%
+    transform: translate(-50%, -50%)
+    color: #6b6969
+    font-weight: 1000
+    font-size: 50px
+    background-color: #ffffff95
+    @include United.center()
+    box-shadow: 0 0 10px 10px #ffffff95
+    border-radius: 50%
+    
+    @media (max-width: 650px)
+        top: 150px
+
+
+        
+        
+    

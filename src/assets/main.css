@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  background-color: #d3d3d3
+}
+
+a{
+  text-decoration: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.container{
+  padding:0 20px 0 20px 
+}

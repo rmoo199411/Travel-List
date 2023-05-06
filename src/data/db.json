@@ -1,0 +1,76 @@
+{
+  "viewsdb": [
+    {
+      "locad": "台北101",
+      "area": "taipei",
+      "type": "view",
+      "feature": "美景、台灣最高建築",
+      "address": "台北市信義區信義路五段7號",
+      "img": "https://images.pexels.com/photos/1717859/pexels-photo-1717859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 1
+    },
+    {
+      "locad": "奇美博物館",
+      "area": "tainan",
+      "type": "view",
+      "feature": "西式博物、取景勝地",
+      "address": "台南市仁德文華路二段66號",
+      "img": "https://images.pexels.com/photos/14068313/pexels-photo-14068313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 2
+    },
+    {
+      "locad": "審計新村",
+      "area": "taichung",
+      "type": "view",
+      "feature": "取景勝地、復古眷村、文青風格",
+      "address": "台中市太平區宜昌里宜昌路495巷12弄3號",
+      "img": "https://angela51.com/wp-content/uploads/20181004204321_84.jpg",
+      "id": 3
+    },
+    {
+      "locad": "高捷美麗島站",
+      "area": "kaohsiung",
+      "type": "view",
+      "feature": "取景勝地、高雄知名地標",
+      "address": "高雄市新興區中山一路115號B1",
+      "img": "https://angela51.com/wp-content/uploads/20181004204321_84.jpg",
+      "id": 4
+    },
+    {
+      "locad": "everywhere burger",
+      "area": "taipei",
+      "type": "food",
+      "feature": "美式漢堡、復古美式餐廳裝潢",
+      "address": "台北市大安區光復南路420巷21號",
+      "img": "https://cdn2.ettoday.net/images/5657/5657728.jpg",
+      "id": 5
+    },
+    {
+      "locad": "宮原眼科",
+      "area": "taichung",
+      "type": "food",
+      "feature": "復古裝潢、冰淇淋口味豐富美味、",
+      "address": "台中市中區中山路20號",
+      "img": "https://photo.travelking.com.tw/scenery/48347CB0-5553-4DAA-88C0-CBAC5E7A880D_e.jpg",
+      "id": 6
+    },
+    {
+      "locad": "邱家小卷米粉",
+      "area": "tainan",
+      "type": "food",
+      "feature": "古早味、食材鮮甜",
+      "address": "台南市中西區國華街三段251號",
+      "img": "https://pic.pimg.tw/tainanlohas/1418036817-390813604.jpg",
+      "id": 7
+    },
+    {
+      "locad": "海之冰",
+      "area": "kaohsiung",
+      "type": "food",
+      "feature": "水果冰、用料新鮮多樣",
+      "address": "高雄市鼓山區濱海一路76號",
+      "img": "https://etaiwan.blog/wp-content/uploads/20190406012649_96.jpg",
+      "id": 8
+    }
+  ]
+}
