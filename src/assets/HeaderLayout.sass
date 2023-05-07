@@ -12,6 +12,7 @@
     a
         color: white
 
+    // 左邊
     .navbar-l
         width: 150px
         font-size: 25px
@@ -21,21 +22,24 @@
 
         &:hover 
             color: #ffb700
-
+    // 中間
     .navbar-m
         @media (max-width: 650px)
             display: none
+
+        .selected
+            background-color: #ffffff76
+
 
         li
             height: 100%
             @include United.center
             padding: 0 1rem 0 1rem
-
+            
             &:hover
                 background-color: #ffffff76
-        
-                
 
+    // 右邊
     .navbar-r
         height: 100% 
         width: 130px
@@ -47,28 +51,28 @@
         &:hover
             color: #ffb700
 
-
+    .selected-r
+        color: #ffb700   
+     
+    // 漢堡選單
     .navbar-list
 
         @media (min-width: 650px)
             display: none
 
-
         .drop-menu
-            display: flex
             flex-direction: column
-            justify-content: center
-            align-items: center
             position: absolute
-            height: auto
             top: 50px
             right: 0
             width: 100%
             background-color: #0b2434
             border-top: 1px solid #a09e9e   
             z-index: 100
+            @include United.center
 
-            
+        .toggleList
+            display: none 
 
             .list
                 width: 100%
@@ -76,10 +80,8 @@
                 border-bottom: 1px solid #a09e9e 
                 @include United.center
 
-    .toggleList
-        visibility: hidden
-
-
+        
+// 至頂按鈕            
 .to-top
     @include United.center
     width: 50px

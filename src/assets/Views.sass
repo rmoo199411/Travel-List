@@ -1,26 +1,24 @@
 @use 'United.sass'
 
-
-
+// 類型導航條    
 .guide
     background-color: #518eb4
     height: 40px
     @include United.center()
+
     a
         color: white
         padding: 0 30px
 
         &:hover
             color: #ffb700
-        
 
-
-
+// 大圖        
 .banner
-    @include United.center()
     height: 500px
     margin-bottom: 50px
-
+    box-shadow: -10px 10px 10px 10px #08080861
+    @include United.center()    
 
     @media (max-width: 650px)
         width: auto
@@ -32,7 +30,30 @@
         width: 100%
         object-fit: cover
 
+.locad-title
+    position: absolute
+    top: 200px
+    left: 50%   
+    transform: translate(-50%, -50%)     
+    height: 0
+    width: 150px
+    height: 80px
+    color: #6b6969
+    font-weight: 1000
+    font-size: 50px
+    background-color: #ffffff95
+    box-shadow: 0 0 10px 10px #ffffff95
+    border-radius: 50%
+    @include United.center()    
+    
+    @media (max-width: 650px)
+        top: 150px
+
+
+
+// 類型title
 .titles
+    z-index: 10
     background-color: #fff
     margin-top: 30px
     margin-bottom: 10px
@@ -44,14 +65,18 @@
     background-color: #d3d3d3
     padding-bottom: 30px
 
-
+// cards
 .card-list
     padding-top: 20px
     display: grid
     grid-template-columns: 30% 30% 30%
     grid-column-gap: 10px
-    grid-row-gap: 10px
+    grid-row-gap: 20px
     justify-content: space-around
+
+    @media (max-width: 900px)
+        grid-template-columns: 50% 50% 
+        grid-column-gap: 15px
 
     @media (max-width: 650px)
         padding-top: 5px
@@ -60,13 +85,13 @@
         width: 100%
         flex-direction: column
 
-
     .card
         flex-direction: column
-        @include United.center()
         border: 1px solid #ababae
         border-radius: 10px
+        box-shadow: -10px 10px 10px 10px #08080861
         overflow: hidden
+        @include United.center()        
 
         @media (max-width: 650px)
             width: 100%
@@ -96,26 +121,7 @@
                 font-size: 30px
                 margin-bottom: 5px
 
-            
 
-.locad-title
-    position: absolute
-    height: 0
-    width: 150px
-    height: 80px
-    top: 200px
-    left: 50%
-    transform: translate(-50%, -50%)
-    color: #6b6969
-    font-weight: 1000
-    font-size: 50px
-    background-color: #ffffff95
-    @include United.center()
-    box-shadow: 0 0 10px 10px #ffffff95
-    border-radius: 50%
-    
-    @media (max-width: 650px)
-        top: 150px
 
 
         

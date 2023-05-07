@@ -2,6 +2,7 @@
    import { useCounterStore } from '../stores/counter.js'
    const store = useCounterStore()
    store.fetchApiData('all')
+   
 </script>
 
 <template>
